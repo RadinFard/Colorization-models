@@ -63,4 +63,4 @@ waitKey(0)
 destroyAllWindows()
 ```
 - See the results!
-[BW image](https://github.com/RadinFard/Colorization-models/blob/62c624fd13a293d531615dea8ecc0c790f6bb30f/sample_of_BW.png) & [LAB image(https://github.com/RadinFard/Colorization-models/blob/62c624fd13a293d531615dea8ecc0c790f6bb30f/sample_of_colorized.png)
+[BW image](https://github.com/RadinFard/Colorization-models/blob/62c624fd13a293d531615dea8ecc0c790f6bb30f/sample_of_BW.png) & [LAB image](https://github.com/RadinFard/Colorization-models/blob/62c624fd13a293d531615dea8ecc0c790f6bb30f/sample_of_colorized.png)
