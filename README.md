@@ -4,10 +4,10 @@
 ## How to...
 - Let's have a simple review on how to manually colorize.
 - Neccesary libraries: numpy & Opencv-python(used as cv2)
-1. So we use an alternative name to understand them.
+1. So we use an import * to import all functions
 ```python
-import numpy as np
-import cv2 as cv
+from numpy import *
+from cv2 import *
 ```
 2. Then we store the path of every model and the BW image into a str variable.
 ```python
@@ -19,8 +19,8 @@ image_file_path = 'samples/sample.jpg'
 3. Then we load them into the readNetFromCaffe(prototxt_path:str, caffeModel:str).
 - NOTE: Don't forget the kernel!
 ```python
-net = cv.dnn.readNetFromCaffe(prototxt_path, model_path)
-points = np.load(kernel_path)
+net = dnn.readNetFromCaffe(prototxt_path, model_path)
+points = load(kernel_path)
 ```
 4. Then we reshape the points variable.
 ```python
